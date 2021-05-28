@@ -5,17 +5,24 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
-
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
     <title>js-mail-dadi</title>
 </head>
 <body>
     <div class="container">
         <div class="row justify-content-center text-center">
-            <div class="col-6">
-                <div id="user"></div>
+            <div class="col-12 fs-1 text-uppercase">Dadi</div>
+            <div class="col-6 bg-light">
+                <div id="user">
+                    <span>Giocatore</span>
+                    <i id="icona-sx" class="bi"></i>
+                </div>
             </div>
-            <div class="col-6">
-                <div id="pc"></div>
+            <div class="col-6 bg-light">
+                <div id="pc">
+                    <span>PC </span>
+                    <i id="icona-dx" class="bi"></i>
+                </div>
             </div>
             <div class="col-7 text-center"> 
                 <button type="button" onclick="randoms()" class="btn btn-primary">Primary</button>
@@ -24,7 +31,7 @@
 
         </div>
     </div>
-    <script src="js/script.js"></script>
+    <!-- <script src="js/script.js"></script> -->
     <script src="js/scriptBonus.js"></script>
 </body>
 </html>
