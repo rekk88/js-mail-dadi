@@ -8,6 +8,8 @@ function randoms(){
 
     console.log("PC : " + randPC);
     console.log("Utente : " + randUtente);
+    document.getElementById("user").innerHTML = "Giocatore : " + randUtente;
+    document.getElementById("pc").innerHTML = "PC : " + randPC;
 
 
     //confronto valori 
