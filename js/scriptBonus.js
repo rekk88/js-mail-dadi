@@ -74,4 +74,13 @@ function randoms(){
         else{
             console.log("pareggio");
         }
+    
+}
+
+
+for (var i=10 ; i <= 30 ; i++){
+    if(i % 3 == 0){
+        console.log(i);
+    }
+
 }
